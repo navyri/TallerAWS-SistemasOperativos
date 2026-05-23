@@ -1,1 +1,25 @@
+# Streams alternos de archivos en Windows
 *:Zone.Identifier
+
+# Llaves y certificados (no deben subirse al repositorio)
+*.pem
+*.key
+
+# Archivos generados por Python
+__pycache__/
+*.pyc
+
+# Entorno virtual local
+.venv/
+
+# Archivo de variables de entorno con credenciales
+.env
+
+# Directorios tipicos de Python para paquetes y builds
+*.egg-info/
+dist/
+build/
+
+# Archivos de configuracion de editores e IDEs
+.vscode/
+.idea/
